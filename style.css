@@ -1,0 +1,158 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+ .myimage{
+  width:5px;
+  height:5px;
+}
+.myimage img{
+  width:10px;
+  margin-right: 5px;
+  margin-left:5px;
+}
+.mail {
+  margin-left: 5px;
+  margin-right: 5px;
+ 
+}
+.image {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.signbutton {
+  background-color: blue;
+  padding: 5px 15px;
+  border-radius: 4px;
+  color: white;
+  margin-left: 5px;
+}
+.google {
+  text-align: center;
+  font-weight: 500;
+  font-family: "Times New Roman", Times, serif;
+  font-size: small;
+  margin-bottom: 300px;
+  size:10px;
+}
+.search {
+  margin: 0 auto;
+  width: 600px;
+  border-radius: 30px;
+  outline: none;
+  padding: 5px;
+  border: 1px solid;
+}
+.search:hover {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.searchbar {
+  height: 40px;
+  width: 450px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-width: 100px;
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.button {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding:10px;
+  background-color: #f8f9fa;
+  border:none;
+}
+.button:hover {
+  box-shadow: 1px 1px 8px 1px bisque;
+}
+.button:focus-within {
+  box-shadow: 1px 1px 8px 1px palevioletred;
+}
+
+.camera{
+  height:30px;
+  position:relative;
+  left:7px;
+  float:right;
+  bottom:0px;
+  margin-right: 15px;
+  top:4px;
+}
+
+.voice {
+  height: 20px;
+  position: relative;
+  top: 4px;
+  left: 10px;
+  margin-right: 2px;
+}
+
+.search i {
+  height: 20px;
+  position: relative;
+  right: 10px;
+  float: left;
+  margin: 15px 20px;
+  top:0px;
+}
+
+
+
+.language {
+  font-size: small;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: 150px;
+}
+.footer p{
+  font-size: small;
+}
+.footer .bottomContent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+.footer .nigeria {
+  margin-bottom: 10px;
+}
+.footer .bottomContent nav {
+  display: flex;
+  
+}
+.footer .bottomContent nav p {
+  margin: 10px;
+}
+.footer .bottomContent nav p:hover {
+  text-decoration: underline;
+}
+.leaf{
+  width:20px;
+  height:10px;
+  margin-top: 13px;
+  margin-left:5px;
+}
